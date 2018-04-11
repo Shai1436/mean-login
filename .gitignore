@@ -1,0 +1,6 @@
+/client/node_modules
+/client/dist
+/.tmp
+/.sass-cache
+/client/bower_components
+/server/node_modules

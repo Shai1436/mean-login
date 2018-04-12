@@ -61,7 +61,6 @@ module.exports = function(app, passport) {
     })(req,res,next);
   });
 
-  // loggedin 'post' to send credentials
   app.get("/auth/loggedin", function(req, res) {
 
     require('../config').currentUser = req.user.email;

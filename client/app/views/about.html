@@ -1,1 +1,9 @@
-<p>This is the about view.</p>
+
+
+
+  <div class="jumbotron">
+    <p> Hello User: {{ currentUser.username || currentUser.facebook.name || currentUser.google.name}}</p>
+
+    <a href="http://localhost:3000/auth/logout" class="btn btn-primary"> Logout</a>
+
+  </div>

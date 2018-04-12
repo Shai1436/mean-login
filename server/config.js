@@ -1,6 +1,7 @@
 module.exports = {
     'secretKey': '12345-67890-09876-54321',
-    'mongoUrl' : 'mongodb://localhost:27017/filestream',
+
+
     'facebookAuth': {
       'clientID'      : '1321303171317674', // your App ID
       'clientSecret'  : 'ba8b090851d4844174af763794dc7a5d', // your App Secret
